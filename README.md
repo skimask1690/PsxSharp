@@ -45,13 +45,6 @@ PsxSharp.exe cmd /k whoami
 4. Invokes `CreateProcessWithTokenW` to spawn a new process with that token
 5. Defaults to spawning `cmd.exe` if no command is specified
 
-## 🚫 Unlike PsExec
-
-- ❌ No temporary service creation  
-- ❌ No remote process/thread handle injection  
-- ❌ No EULA acceptance  
-- ✅ Local-only SYSTEM privilege escalation  
-
 ---
 
 ## ⚠️ Disclaimer
