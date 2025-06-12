@@ -15,7 +15,7 @@ It acts as a lightweight, open-source alternative to PsExec, without services, r
 ### 🔧 Compile
 
 ```sh
-csc.exe /debug- /o+ /t:winexe /nologo PsxSharp.cs
+csc.exe /debug- /optimize+ /t:winexe /nologo PsxSharp.cs
 ```
 
 ### ▶️ Run
